@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setFragment"
+        android:title="@string/bottom_title_set"
+        android:icon="@drawable/ic_set"/>
+
+    <item
+        android:id="@+id/collectionFragment"
+        android:title="@string/bottom_title_collection"
+        android:icon="@drawable/ic_collection"/>
+
+    <item
+        android:id="@+id/deckFragment"
+        android:title="@string/bottom_title_decks"
+        android:icon="@drawable/ic_decks"/>
+</menu>
