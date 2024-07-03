@@ -6,10 +6,9 @@
     android:background="@color/bg_light"
     tools:context=".ui.set.SetFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSets"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello sets" />
+        android:layout_height="match_parent"/>
 
 </FrameLayout>

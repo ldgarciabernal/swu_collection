@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">swu_collection</string>
+    <string name="app_name">SWU Collection</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -7,4 +7,17 @@
     <string name="bottom_title_collection">Collection</string>
     <string name="bottom_title_set">Sets</string>
     <string name="bottom_title_decks">Decks</string>
+
+    <!-- Set names -->
+    <string name="set_sor_name">Spark of Rebellion</string>
+    <string name="set_shd_name">Shadows of the Galaxy</string>
+    <string name="set_totr_name">Twilight of the Republic</string>
+
+    <string name="set_sor_alias">SOR</string>
+    <string name="set_shd_alias">SHD</string>
+    <string name="set_totr_alias">TOTR</string>
+
+    <string name="set_sor_release">March 8, 2024</string>
+    <string name="set_shd_release">July 12, 2024</string>
+    <string name="set_totr_release">Q4, 2024</string>
 </resources>

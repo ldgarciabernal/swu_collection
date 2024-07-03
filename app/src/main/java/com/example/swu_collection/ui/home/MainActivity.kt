@@ -10,11 +10,13 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.swu_collection.R
 import com.example.swu_collection.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 /*
 * API DOC - https://www.swu-db.com/api
 * */
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

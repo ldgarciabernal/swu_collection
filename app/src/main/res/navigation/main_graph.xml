@@ -19,5 +19,18 @@
         android:id="@+id/setFragment"
         android:name="com.example.swu_collection.ui.set.SetFragment"
         android:label="fragment_set"
-        tools:layout="@layout/fragment_set" />
+        tools:layout="@layout/fragment_set" >
+        <action
+            android:id="@+id/action_setFragment_to_setDetailActivity"
+            app:destination="@id/setDetailActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/setDetailActivity"
+        android:name="com.example.swu_collection.ui.detail.SetDetailActivity"
+        android:label="activity_set_detail"
+        tools:layout="@layout/activity_set_detail" >
+        <argument
+            android:name="setType"
+            app:argType="com.example.swu_collection.domain.model.SetModel" />
+    </activity>
 </navigation>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SWU Collection</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Bottom nav bar -->
+    <string name="bottom_title_collection">Biblioteca</string>
+    <string name="bottom_title_set">Colleción</string>
+    <string name="bottom_title_decks">Mazos</string>
+
+    <!-- Set names -->
+    <string name="set_sor_name">La chispa de la rebelión</string>
+    <string name="set_shd_name">Sombras de la galaxia</string>
+    <string name="set_totr_name">El ocaso de la República</string>
+
+    <string name="set_sor_alias">SOR</string>
+    <string name="set_shd_alias">SHD</string>
+    <string name="set_totr_alias">TOTR</string>
+
+    <string name="set_sor_release">8 Marzo 2024</string>
+    <string name="set_shd_release">12 Julio 2024</string>
+    <string name="set_totr_release">Finales de año, 2024</string>
+</resources>

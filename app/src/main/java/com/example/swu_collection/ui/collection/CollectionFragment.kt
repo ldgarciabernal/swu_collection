@@ -5,9 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import com.example.swu_collection.databinding.FragmentCollectionBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class CollectionFragment : Fragment() {
+
+    private val collectionViewModel by viewModels<CollectionViewModel>()
 
     private var _binding: FragmentCollectionBinding? = null
     private val binding get() = _binding!!
